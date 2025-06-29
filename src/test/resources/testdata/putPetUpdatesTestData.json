@@ -1,0 +1,38 @@
+{
+  "createdPet": {
+    "id": 11231231234,
+    "category": {
+      "id": 0,
+      "name": "string"
+    },
+    "name": "barsik",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  },
+  "changedPet": {
+    "id": 11231231234,
+    "category": {
+      "id": 0,
+      "name": "string"
+    },
+    "name": "barsik",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "sold"
+  }
+}

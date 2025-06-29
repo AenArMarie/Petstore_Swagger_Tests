@@ -1,0 +1,20 @@
+{
+  "pet": {
+    "id": 12871,
+    "category": {
+      "id": 0,
+      "name": "string"
+    },
+    "name": "margo",
+    "photoUrls": [
+      "string"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  }
+}

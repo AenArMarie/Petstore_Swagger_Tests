@@ -1,0 +1,58 @@
+{
+  "pets": [
+    {
+      "id": 12871,
+      "category": {
+        "id": 0,
+        "name": "string"
+      },
+      "name": "margo",
+      "photoUrls": [
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 12872,
+      "category": {
+        "id": 0,
+        "name": "string"
+      },
+      "name": "marie",
+      "photoUrls": [
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    },
+    {
+      "id": 12873,
+      "category": {
+        "id": 0,
+        "name": "string"
+      },
+      "name": "mars",
+      "photoUrls": [
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    }
+  ]
+}

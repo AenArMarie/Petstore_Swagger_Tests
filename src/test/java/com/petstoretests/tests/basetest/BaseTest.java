@@ -1,11 +1,18 @@
 package com.petstoretests.tests.basetest;
 
-import com.petstoretests.constants.PathConstants;
-import com.petstoretests.jsondata.testdata.TestData;
-import com.utility.files.FilesReader;
-import org.junit.jupiter.api.BeforeAll;
+import com.utility.logger.ProjectLogger;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 
 public abstract class BaseTest {
 
-    protected TestData testData;
+    @BeforeEach
+    public void setUp() {
+        ProjectLogger.info("Начало теста");
+    }
+
+    @AfterEach
+    public void tearDown() {
+        ProjectLogger.info("Завершение теста\n");
+    }
 }

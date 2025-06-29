@@ -4,9 +4,11 @@ import com.petstoretests.jsondata.models.PetModel;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.ArrayList;
+
 @Getter
 @Setter
-public class TestData {
+public class PostPetTestData {
 
-    private GetPetByIdTestData getPetByIdTestData;
+    private ArrayList<PetModel> pets;
 }

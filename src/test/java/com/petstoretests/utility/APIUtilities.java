@@ -1,24 +1,11 @@
 package com.petstoretests.utility;
 
-import java.io.File;
-import java.util.Map;
-
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.given;
 
 public class APIUtilities {
-
-    public static Response getRequestWithHeadersAndQueryParams(String url, Map<String, String> headers, Map<String, String> queryParams) {
-        return given()
-                .headers(headers)
-                .queryParams(queryParams)
-                .when()
-                .get(url)
-                .then()
-                .extract().response();
-    }
 
     public static Response getRequest(String url) {
         return given()
@@ -52,36 +39,6 @@ public class APIUtilities {
                 .body(body)
                 .when()
                 .put(url)
-                .then()
-                .extract().response();
-    }
-
-    public static Response putRequestWithHeadersAndQueryParams(String url, Map<String, String> headers, Map<String, String> queryParams) {
-        return given()
-                .headers(headers)
-                .queryParams(queryParams)
-                .when()
-                .put(url)
-                .then()
-                .extract().response();
-    }
-
-    public static Response postRequestWithHeadersAndQueryParams(String url, Map<String, String> headers, Map<String, String> queryParams) {
-        return given()
-                .headers(headers)
-                .queryParams(queryParams)
-                .when()
-                .post(url)
-                .then()
-                .extract().response();
-    }
-
-    public static Response deleteRequestWithHeadersAndQueryParams(String url, Map<String, String> headers, Map<String, String> queryParams) {
-        return given()
-                .headers(headers)
-                .queryParams(queryParams)
-                .when()
-                .delete(url)
                 .then()
                 .extract().response();
     }
